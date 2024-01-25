@@ -36,7 +36,7 @@ const ResultPage = () => {
           </ul>
         </nav>
       </header>
-      {result ? (
+      {result && result.matchingSchemes &&result.bestMatchingScheme ? (
         <div>
           <div>
           <h2 style={{paddingTop:'20px',paddingLeft:'20px'}}>Most suitable recommmended Scheme:</h2>
@@ -65,7 +65,7 @@ const ResultPage = () => {
           </ul>
         </div>
       ) : (
-        <p>Result is undefined or null</p>
+        <p id='error'>OOPsss!!!No matching schemes found</p>
       )}
     </div>
   );
