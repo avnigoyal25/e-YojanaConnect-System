@@ -3,7 +3,7 @@ The e-Yojana Connect System is a web app to make it easier for the government to
 
 
 
-Uploading React App - Google Chrome 2024-01-25 20-17-30.mp4…
+https://github.com/avnigoyal25/e-YojanaConnect-System/assets/91952706/863936f7-5872-4eac-8667-9b6e5794093b
 
 
 # Tech Stack
